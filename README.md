@@ -42,6 +42,16 @@ The calculation document is a Jupyter Book, stored in the `book` directory. It r
 
 The target audience of the calculation document in the `book` directory is anyone that needs to verify, validate, consume or review the calculation. There are some audiences that may need to interact with your calculation, but might want to do things outside of the scope of a technical document. For example, sysadmins, other engineers/ developers etc may be interested in infrastructure, deployment, development of the source Python code. Documentation relevant to these users is stored in the `docs` folder. This folder contains documentation traditionally aligned with a normal software project.
 
+After editing the book:
+
+```console
+hatch run book:jbbuild  # build the book
+hatch run book:jbpublish  # publish to gh-pages
+git add .
+git commit -m "message"
+git push
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
