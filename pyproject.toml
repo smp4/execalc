@@ -38,6 +38,7 @@ path = "src/execalc/__about__.py"
 dependencies = [
   "coverage[toml]>=6.5",
   "pytest",
+  "jupyter-book",
 ]
 [tool.hatch.envs.default.scripts]
 test = "pytest {args:tests}"
@@ -50,6 +51,15 @@ cov = [
   "test-cov",
   "cov-report",
 ]
+
+[tool.hatch.envs.docs]
+dependencies = [
+  "jupyter-book",
+]
+
+[tool.hatch.envs.docs.scripts]
+build = ""
+serve = ""
 
 [[tool.hatch.envs.all.matrix]]
 python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
