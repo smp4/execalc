@@ -13,6 +13,7 @@
 - [Thanks](#thanks)
 - [To Do](#todo)
 
+The demo book from this repository is available [here](https://smp4.github.io/execalc/).
 
 ## Installation
 
