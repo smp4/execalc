@@ -58,7 +58,7 @@ dependencies = [
 ]
 
 [tool.hatch.envs.book.scripts]
-jbbuild = "jupyter-book build book"
+jbbuild = "jupyter-book build book --builder linkcheck"
 jbpublish = "ghp-import -n -p -f book/_build/html"
 
 [[tool.hatch.envs.all.matrix]]

@@ -78,3 +78,5 @@ This `README.md` was inspired by [Make a README](https://www.makeareadme.com/).
 * where and how to set up jupyter kernel to build the book. does it use the default env of the project? shall the default env by the computational env of the calc?
 * what do i need to have installed as an author
 * what do i need to have isntalled as a consumer
+* publish to pdf (html method, so users dont have to install tex?)
+* commenting and annotating engine - utterances probably, comments go to the gh repo, not some other service.

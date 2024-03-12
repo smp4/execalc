@@ -34,3 +34,4 @@ html:
 sphinx:
   config:
     bibtex_reference_style: author_year
+    language: en  # required for web accessibility
