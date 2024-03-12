@@ -11,3 +11,6 @@ Check out the content pages bundled with this sample book to see more.
 ```
 
 This is an example citation {cite}`holdgraf_evidence_2014`.
+
+```{bibliography}
+```
