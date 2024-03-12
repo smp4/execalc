@@ -76,3 +76,5 @@ This `README.md` was inspired by [Make a README](https://www.makeareadme.com/).
 * check licenses of all used tools and libraries, that is ok to use them commercially. pick a license for this repo that fits.
 * references/ citations
 * where and how to set up jupyter kernel to build the book. does it use the default env of the project? shall the default env by the computational env of the calc?
+* what do i need to have installed as an author
+* what do i need to have isntalled as a consumer
