@@ -35,8 +35,11 @@ Answer the questions to auto-fill the template parameters.
 
 ## Usage
 
-todo...
+The calculation exists in the Python source code in the `src` directory.
 
+The calculation document is a Jupyter Book, stored in the `book` directory. It references the Python code in `src?`.
+
+The target audience of the calculation document in the `book` directory is anyone that needs to verify, validate, consume or review the calculation. There are some audiences that may need to interact with your calculation, but might want to do things outside of the scope of a technical document. For example, sysadmins, other engineers/ developers etc may be interested in infrastructure, deployment, development of the source Python code. Documentation relevant to these users is stored in the `docs` folder. This folder contains documentation traditionally aligned with a normal software project.
 
 ## Contributing
 
@@ -59,3 +62,6 @@ This `README.md` was inspired by [Make a README](https://www.makeareadme.com/).
 
 * get prototype working
 * cruft template# License
+* check licenses of all used tools and libraries, that is ok to use them commercially. pick a license for this repo that fits.
+* references/ citations
+* where and how to set up jupyter kernel to build the book. does it use the default env of the project? shall the default env by the computational env of the calc?
