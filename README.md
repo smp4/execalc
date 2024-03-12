@@ -80,3 +80,4 @@ This `README.md` was inspired by [Make a README](https://www.makeareadme.com/).
 * what do i need to have isntalled as a consumer
 * publish to pdf (html method, so users dont have to install tex?)
 * commenting and annotating engine - utterances probably, comments go to the gh repo, not some other service.
+* how to include something in narrative text that is pulled from an external API (eg how to do something like executing code and formatting the output in eg jinja?)
